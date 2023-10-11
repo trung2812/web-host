@@ -4,6 +4,7 @@ RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -rf /usr/local/tomcat/webapps/examples
 ADD W4.war /usr/local/tomcat/webapps/
 ADD C5.war /usr/local/tomcat/webapps/
+ADD C7.war /usr/local/tomcat/webapps/
 ADD ROOT.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
