@@ -7,6 +7,7 @@ ADD C5.war /usr/local/tomcat/webapps/
 ADD C7.war /usr/local/tomcat/webapps/
 ADD C73.war /usr/local/tomcat/webapps/
 ADD C8.war /usr/local/tomcat/webapps/
+ADD C92.war /usr/local/tomcat/webapps/
 ADD ROOT.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
